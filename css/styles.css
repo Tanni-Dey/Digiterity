@@ -1,0 +1,515 @@
+.fixed {
+	background:white;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	z-index:999;
+}
+.dropdown:hover> .dropdown-menu{
+	display:block;
+}
+.navi .navbar .btn-primary{
+	background-color:#00BFFF;
+	border-radius:22px;
+	border:2px solid #00BFFF;
+}
+.navi .navbar .btn-primary:hover{
+	border:2px solid #00BFFF;
+	background-color:white;
+	color:#00BFFF;
+}
+.navbar-light .navbar-nav .nav-link{
+	color:black;
+}
+.navbar-light .navbar-nav .active> .nav-link{
+	color:#00BFFF;
+	*text-decoration:underline
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#00BFFF;
+}
+.dropdown .nav-link:hover{
+	display:dropdown-item;
+}
+
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+	display:none;
+}
+.home-one{
+	background-image:url(../images/Software-Company-in-Trivandrum.jpg);
+	background-attachment:fixed;
+	position:relative;
+}
+.home-one:before{
+	content:'';
+	position:absolute;
+	background-color:#00BFFF;
+	opacity:0.7;
+	top:0px;
+	left:0px;
+	height:100%;
+	width:100%;
+}
+.home-one .section-title{
+	position:absolute;
+	top:30%;
+	color:white;
+}
+.home-one .section-title h1{
+	font-size:60px;
+}
+.home-one .section-title button{
+	height:50px;
+	width:200px;
+	background-color:#F0F0F0;
+	border:2px solid white;
+	border-radius:50px;
+	color:#00BFFF;
+}
+
+.home-one .section-title button:hover{
+	color:white;
+	background-color:#00FFFF;
+	border:2px solid #F0F0F0;
+}
+.company{
+	padding:100px;
+}
+.company .owl-theme .item{
+	height:70px;
+	width:100px;
+	line-height:70px;
+	margin-top:30px;
+}
+.project{
+	padding:150px;
+}
+.project .owl-theme .item{
+	*height:350px;
+	*width:300px;
+}
+.foot{
+	background-color:black;
+	padding:100px;
+	color:white;
+}
+.foot .link a{
+	color:white;
+}
+.foot .link a:hover{
+	color:#00BFFF;
+	text-decoration:none; 
+}
+.foot .follow a{
+	padding:10px;
+}
+.feature .media .in{
+	height:70px;
+	width:70px;
+	border:1px solid #00BFFF;
+	border-radius:50%;
+	line-height:70px;
+	background-color:#00BFFF;
+	color:white;
+	font-size:30px;
+}
+.feature{
+	background-color:#E8E8E8;
+	padding:100px;
+}
+..feature:before{
+	content:'';
+	position:
+}
+.media{
+	background-color:#E8E8E8;
+	padding:20px;
+}
+.feature .media h5{
+	color:#00BFFF;
+}
+.media-body{
+	margin-left:30px;
+}
+#toTop{
+	
+	right:40px;
+	bottom:50px;
+	padding:20px 20px;
+	color:white;
+	background-color:#00BFFF;
+	position:fixed;
+	display:none;
+}
+
+.about-one{
+	background-image:url(../images/contact-us-01-hero-bg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding:150px;
+	background-position:center center;
+	color:white;
+	
+}
+.about-two{
+	padding:100px 0px;
+} 
+.about-two .section-title h6{
+	color:#00BFFF;
+}
+.about-two .year{
+	font-size:150px;
+	color:#E9967A;
+}
+.about-two .success{
+	padding-top:80px;
+	font-size:20px;
+}
+.about-single{
+-webkit-box-shadow: 0px 4px 26px 0px rgba(145,118,145,1);
+-moz-box-shadow: 0px 4px 26px 0px rgba(145,118,145,1);
+box-shadow: 0px 4px 26px 0px rgba(145,118,145,1);
+}
+.about-two .about-single{
+	padding:50px 20px;
+}
+.about-single img{
+	padding:30px;
+}
+.about-single button{
+	background-color:white;
+	color:#00BFFF;
+}
+.about-single:hover{
+	
+}
+.about-three{
+	padding:100px;
+}
+.about-three .media{
+	background-color:white;
+}
+.about-three .media .media-body h5{
+	color:#00BFFF;
+	font-size:25px;
+}
+.about-three .media p{
+	font-size:15px;
+	color:#989898;
+}
+.about-four{
+	background-color:#00BFFF;
+	color:white;
+	padding:70px;
+}
+.about-four .counter{
+	font-size:50px;
+}
+.contact{
+	background-image:url(../images/title-bar-01-bg.jpg);
+	padding:100px;
+	color:#00BFFF;
+}
+.msg .msg-single{
+	padding-top:50px;
+	font-weight:bold;
+}
+.msg .msg-single a{
+	color:#00BFFF;
+	text-decoration:none;
+}
+.msg .msg-single p{
+	color:#00BFFF;
+}
+.msg{
+	padding:100px;
+}
+.msg i{
+	font-size:40px;
+	color:#00BFFF;
+}
+.frm{
+	padding-bottom:100px;
+}
+.frm .form-control{
+	border-radius:30px;
+}
+.frm button{
+	border-radius:30px;
+	background-color:
+}
+.blog{
+	background-color:black;
+	padding:100px;
+	color:white;
+}
+.blog-midia{
+	padding:150px 0px;
+}
+.blog-midia .media{
+	background-color:white;
+}
+.blog-one{
+	padding:100px;
+}
+.work{
+	padding:100px;
+}
+.pass{
+	padding:100px;
+}
+.command{
+	padding:100px;
+}
+.programming{
+	padding:100px;
+}
+.web{
+	padding:100px;
+}
+.advance{
+	padding:100px;
+}
+.web-design{
+	padding:100px;
+}
+.web-develop{
+	padding:100px;
+}
+.soft{
+	padding:100px;
+}
+.traning{
+	padding:50px;
+	background-color:#00BFFF;
+}
+.curr{
+	color:#00BFFF;
+}
+.portfolio{
+	padding:100px;
+	background-color:#00BFFF;
+	color:white;
+}
+.portfolio-one{
+	padding:100px;
+}
+.service{
+	background-image:url(../images/services.jpg);
+	color:white;
+	*font-size:50px;
+	padding:200px;
+	
+}
+.service-zero{
+	background-color:#F0F0F0;
+	padding:100px;
+}
+.service-zero i{
+	font-size:70px;
+	color:#00BFFF;
+}
+.service-single{
+	padding:50px;
+	position:relative;
+	background-color:white;
+	margin-bottom:30px;
+	-webkit-box-shadow: -1px 0px 16px 0px rgba(199,187,199,1);
+-moz-box-shadow: -1px 0px 16px 0px rgba(199,187,199,1);
+box-shadow: -1px 0px 16px 0px rgba(199,187,199,1);
+}
+.service-single img{
+	height:100px;
+	width:150px;
+	margin-bottom:20px;
+}
+.service-info{
+	position:absolute;
+	padding:50px;
+	transform:scale(0,0);
+	transition:0.0s;
+	color:white;
+	background-color:#00BFFF;
+}
+.service-single:hover{
+	background-color:#00BFFF;
+}
+.service-single:hover .service-info{
+	color:white;
+	height:100%;
+	width:100%;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	transform:scale(1,1);
+	transition:0.0s;
+}
+.service-single a{
+	color:black;
+}
+.service-single h5{
+	height:48px;
+}
+.service-single:hover i{
+	color:white;
+}
+.service-one {
+	padding:100px;
+	
+}
+.service-one .media{
+	background-color:white;
+}
+.service-one .media h5{
+	font-size:40px;
+	color:#00BFFF;
+}
+.tell{
+	background-color:#00BFFF;
+	padding:100px;
+	color:white;
+}
+.tell .client{
+	padding:100px;
+	border:1px solid white;
+	border-radius:10px;
+}
+.tell .client td{
+	height:100px;
+	width:200px;
+}
+.tell-us{
+	background-color:white;
+	padding:50px;
+}
+.tell-us button{
+	background-color:#009933;
+	border:1px solid #009933;
+}
+.team-one{
+	background-image:url(../images/Company-KteamV2-1210x423.jpg);
+	padding:100px;
+}
+.team-one h2{
+	font-size:70px;
+	color:white;
+}
+.Team{
+	padding:50px 50px;
+}
+.Team .section-title h6{
+	color:blue;
+}
+.team-member{
+	*padding:30px 30px;
+}
+.Team .team-member p{
+	color:#00BFFF;
+}
+.Team .team-member .team-im{
+	height:220px;
+	width:220px;
+	border:6px  solid gray;
+	margin-left:15px;
+	border-radius:50%;
+	
+}
+.team-im img{
+	border-radius:50%;
+	padding:15px;
+	transition:0.3;
+}
+.team-member:hover .team-im{
+	border:6px solid #00BFFF;;
+	
+	
+}
+.team-member:hover .team-im img{
+	transform:scale(0.9,0.9);
+	transition:0.5s;
+}
+.grid .element-item img{
+	width:100%;
+	margin-bottom:20px;
+}
+.app-one{
+	background-color:black;
+	color:white;
+	padding:50px 0px;
+	text-align:center;
+}
+.app-two{
+	padding:100px 0px;
+}
+.app-single{
+	position:relative;
+}
+.app-info{
+	position: absolute;
+    transform: translateY(-50%);
+    background: #fff;
+    width: 80%;
+	padding:30px 10px;
+    left: 10%;
+	-webkit-box-shadow: -1px 0px 16px 0px rgba(199,187,199,1);
+-moz-box-shadow: -1px 0px 16px 0px rgba(199,187,199,1);
+box-shadow: -1px 0px 16px 0px rgba(199,187,199,1);
+}
+
+.app-single .app-img{
+	overflow:hidden;
+}
+.app-single:hover .app-info{
+	background-color:#00BFFF;
+	color:white;
+}
+.app-single:hover img{
+	transform:scale(1.2);
+	transition:1s;
+    transition-duration: 0.5s, 1s;
+}
+@media only screen and (max-width: 600px) {
+	.home-one .section-title h1 {
+		font-size:16px;
+	}
+	.home-one{
+		height:300px;
+	}
+	.home-one img{
+		display:none;
+	}
+} 
+.our-work .owl-theme .owl-dots, .owl-theme .owl-nav{
+	display:block;
+}
+
+.owl-theme .owl-dots .owl-dot span{
+	background-image:url(../images/shell.png);
+	width:150px;
+    height:80px;
+    margin:0px;
+    *background:none;
+    display: block;
+    transition: opacity .2s ease;
+	border-radius:0px;
+    
+}
+.owl-theme .owl-dots .owl-dot span{
+	background-image:url(../images/shell.png);
+	width:185px;
+    height:80px;
+    margin:0px;
+    *background:none;
+    display: block;
+    transition: opacity .2s ease;
+	border-radius:0px;
+    
+}
+.owl-carousel .owl-nav button.owl-prev{
+	display:none;
+}
+.owl-carousel .owl-nav button.owl-next{
+	display:none;
+}
